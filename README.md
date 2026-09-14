@@ -5,21 +5,21 @@ The desktop application retrieves weather data from the Open-Meteo REST API, cal
 ## Project Status 
 It is currently a work in progress.
 
-### Implemented
-*Arduino to C++ serial communication
-*C++ to Arduino ON/OFF commands
-*Open-Meteo REST API integration
-*JSON parsing with 'nlohmann/json'
-*Irrigation calculation based on soil moisture and weather forecast
-*Irrigation logic that determines a base water amount from soil moisture levels
+## Implemented
+ - Arduino to C++ serial communication
+ - C++ to Arduino ON/OFF commands
+ - Open-Meteo REST API integration
+ - JSON parsing with 'nlohmann/json'
+ - Irrigation calculation based on soil moisture and weather forecast
+ - Irrigation logic that determines a base water amount from soil moisture levels
 
-#### Next Steps
-*Replace simulated soil moisture values with real soil moisture sensors
-*Read sensor values continuously in real time
-*Add a continuous control loop in the C++ application
-*Integrate a real water pump
-*Calibrate pump flow rate and convert water volume into pump runtime
-*Add a simple dashboard for monitoring and manual control
+## Next Steps
+ - Replace simulated soil moisture values with real soil moisture sensors
+ - Read sensor values continuously in real time
+ - Add a continuous control loop in the C++ application
+ - Integrate a real water pump
+ - Calibrate pump flow rate and convert water volume into pump runtime
+ - Add a simple dashboard for monitoring and manual control
 
 ## Architecture
 The Arduino reads the soil moisture value and sends it to the C++ application through USB Serial communication.
@@ -37,14 +37,14 @@ The Arduino then controls the LED, which currently simulates the future water pu
 8. The Arduino currently uses its built-in LED to simulate the future pump control.
 
 ## Technologies
-*C++
-*Arduino
-*Visual Studio
-*Open-Meteo REST API
-*libcurl
-*nlohmann/json
-*Windows Serial Communication
-*vcpkg
+ - C++
+ - Arduino
+ - Visual Studio
+ - Open-Meteo REST API
+ - libcurl
+ - nlohmann/json
+ - Windows Serial Communication
+ - vcpkg
 
 ## Irrigation Calculation
 The prototype assumes an irrigation area of 150 m² that is irrigated once in 2 days.
