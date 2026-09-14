@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="SmartIrrigationServer/SmartIrrigationServer.vcxproj" Id="b916afe1-8f36-48ab-990d-9a5726f9316a" />
+</Solution>
