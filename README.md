@@ -33,7 +33,7 @@ The Arduino then controls the LED, which currently simulates the future water pu
 4. The application determines a base irrigation amount from the soil moisture level.
 5. Expected rainfall is converted from millimeters to liters for the irrigation area.
 6. The expected rainfall is subtracted from the base irrigation amount.
-7. If irrigation is required, the application sends an 'ON' command to the Arduino. Otherwise, it sends `OFF`.
+7. If irrigation is required, the application sends an 'ON' command to the Arduino. Otherwise, it sends 'OFF'.
 8. The Arduino currently uses its built-in LED to simulate the future pump control.
 
 ## Technologies
